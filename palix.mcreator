@@ -1,0 +1,952 @@
+{
+  "mod_elements": [
+    {
+      "name": "Palix",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix"
+    },
+    {
+      "name": "Palixfragment",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_fragment"
+    },
+    {
+      "name": "Palixore",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_ore"
+    },
+    {
+      "name": "Palixfragmenttopalix",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixfragmenttopalix"
+    },
+    {
+      "name": "Palixy",
+      "type": "enchantment",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixy"
+    },
+    {
+      "name": "Palixdefender",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_defender"
+    },
+    {
+      "name": "Templepalix",
+      "type": "structure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templepalix"
+    },
+    {
+      "name": "Palixblock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_block"
+    },
+    {
+      "name": "Palixblockcraft",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixblockcraft"
+    },
+    {
+      "name": "Palixblockcraftreversed",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixblockcraftreversed"
+    },
+    {
+      "name": "Palixfoodcraft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixfoodcraft"
+    },
+    {
+      "name": "Palixbowarows",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_arows"
+    },
+    {
+      "name": "Palixbow",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_bow"
+    },
+    {
+      "name": "Palixarowscraft",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixarowscraft"
+    },
+    {
+      "name": "Palixbowcraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixbowcraft"
+    },
+    {
+      "name": "Palixprotected",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_shild",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Palixpioche",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_picaxe"
+    },
+    {
+      "name": "Palixaxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_axe"
+    },
+    {
+      "name": "Palixshovel",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_shovel"
+    },
+    {
+      "name": "Palixsword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_sword"
+    },
+    {
+      "name": "PalixfoodQuandLaNourritureEstMangee",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixfood_quand_la_nourriture_est_mangee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PalixyplantyQuandLaPlanteEstDetruiteParUnJoueur",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixyplanty_quand_la_plante_est_detruite_par_un_joueur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Palixyplanty",
+      "type": "plant",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixy_planty"
+    },
+    {
+      "name": "Palixcraftpioche",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftpioche"
+    },
+    {
+      "name": "Palixcraftaxe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftaxe"
+    },
+    {
+      "name": "Palixcraftshovel",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftshovel"
+    },
+    {
+      "name": "Palixcraftsword",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftsword"
+    },
+    {
+      "name": "Palixdimcraft",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixdimcraft"
+    },
+    {
+      "name": "Palixcraftdim",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftdim"
+    },
+    {
+      "name": "Palixcraftplactron",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftplactron"
+    },
+    {
+      "name": "PalixcraftTete",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraft_tete"
+    },
+    {
+      "name": "Palixcraftgenbierre",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftgenbierre"
+    },
+    {
+      "name": "Palixcraftchausur",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixcraftchausur"
+    },
+    {
+      "name": "Palixgui1",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixgui_1"
+    },
+    {
+      "name": "PalixGui1Proc",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_gui_1_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Palixyparticulare",
+      "type": "particle",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixy_particule"
+    },
+    {
+      "name": "Alixp",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alixp"
+    },
+    {
+      "name": "Palixpos",
+      "type": "potioneffect",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixpospalix_effect"
+    },
+    {
+      "name": "PalixposQuandLeffetCommenceEstApplique",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixpos_quand_leffet_commence_est_applique",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Posion",
+      "type": "potion",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "posion"
+    },
+    {
+      "name": "PalixyTnTLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixy_tn_t_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PalixyTnT",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixy_tnt"
+    },
+    {
+      "name": "Palixtntcraft",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixtntcraft"
+    },
+    {
+      "name": "PalixtempleQuandUneCommandeEstExecutee",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixtemple_quand_une_commande_est_executee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SecretLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Secret",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secret"
+    },
+    {
+      "name": "Secretcraft",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secretcraft"
+    },
+    {
+      "name": "Polix",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polix"
+    },
+    {
+      "name": "Palixer",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polix_ore"
+    },
+    {
+      "name": "PolixLorsqueLitemEstDansEnMain",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polix_lorsque_litem_est_dans_en_main",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PolixswordLorsDunClicDroitDansLair",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polixsword_lors_dun_clic_droit_dans_lair",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Polixsword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polix_sword"
+    },
+    {
+      "name": "Polixswordcraft",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polixswordcraft"
+    },
+    {
+      "name": "Lootdefaultoldchest",
+      "type": "loottable",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lootdefaultoldchest"
+    },
+    {
+      "name": "Palixtransformator",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_transformator_block"
+    },
+    {
+      "name": "Palixtransformatorcraft",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixtransformatorcraft"
+    },
+    {
+      "name": "Oldchest",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldchest"
+    },
+    {
+      "name": "Destructblock",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destruct_block"
+    },
+    {
+      "name": "DestructblockRedstoneAllumee",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destructblock_redstone_allumee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blobby",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blobby"
+    },
+    {
+      "name": "Chocolatecraft",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolatecraft"
+    },
+    {
+      "name": "Destructblockcraft",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destructblockcraft"
+    },
+    {
+      "name": "PNTOR",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pntor"
+    },
+    {
+      "name": "Dirtpde",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alix_dirt"
+    },
+    {
+      "name": "DirtP",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alix_grass"
+    },
+    {
+      "name": "Boa",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alix_boa"
+    },
+    {
+      "name": "Palixonglet",
+      "type": "tab",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixonglet"
+    },
+    {
+      "name": "Boatransform",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boatransform"
+    },
+    {
+      "name": "Palixfood",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixfood"
+    },
+    {
+      "name": "Chocolate",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate"
+    },
+    {
+      "name": "Tangler",
+      "type": "livingentity",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tangler"
+    },
+    {
+      "name": "PalixMusic",
+      "type": "musicdisc",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palix_music"
+    },
+    {
+      "name": "Palixmusiccraft",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palixmusiccraft"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "palix_music",
+      "files": [
+        "oh64_-_palix_mod_ambient_2023-02-11_10_25_1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.palix.palix_fragment": "Fragment of palix",
+      "enchantment.plalix.palixy": "Palixy",
+      "block.plalix.palixore": "Palix Ore",
+      "item.plalix.polix": "Polix",
+      "item.plalix.polixsword": "Polix sword",
+      "entity.plalix.blobby": "Blobby",
+      "item.palix.palix_shovel": "Palix shovel",
+      "item.palix.palix_axe": "Palix axe",
+      "block.plalix.destructblock": "Destructer block",
+      "block.palix.polix_ore": "Polix ore",
+      "effect.palixpospalix_effect": "Palix effect",
+      "item.plalix.palixdefender_spawn_egg": "Palix defender Spawn Egg",
+      "item.plalix.palixprotected_boots": "Palix boots",
+      "item.plalix.palixbow": "Palix bow",
+      "entity.palix.tangler": "Tangler",
+      "item.minecraft.lingering_potion.effect.posion": "Lingering Potion of Posion",
+      "item.palix.palix": "Palix",
+      "item.plalix.palixaxe": "Palix axe",
+      "item.palix.palix_music": "Palix Disc",
+      "item.plalix.palixpioche": "Palixy pickaxe",
+      "item.palix.polix": "Polix",
+      "item.plalix.palixprotected_helmet": "Casque en Palix",
+      "block.plalix.transfert": "Transfert",
+      "block.palix.alix_grass": "Dirty",
+      "advancements.alixp.title": "Palix !",
+      "item.palix.secret": "Secret",
+      "item.palix.palix_arows": "Palix arows",
+      "block.plalix.spyrali_tem": "spissy",
+      "item.plalix.palixprotected_chestplate": "Plastron de Palix",
+      "item.palix.palix_picaxe": "Palixy pickaxe",
+      "itemGroup.tabpalixonglet": "Palix",
+      "item.palix.palixfood": "Palixy food",
+      "item.plalix.palixshovel": "Palix shovel",
+      "block.plalix.palixer": "Polix ore",
+      "item.plalix.palixfood": "Palixy food",
+      "block.plalix.palinator": "Fluidy",
+      "item.palix.palix_defender_spawn_egg": "Palix defender Spawn Egg",
+      "block.palix.alix_dirt": "Dirtpde",
+      "item.plalix.chocolate": "Chocolate",
+      "block.plalix.palixblock": "Palixblock",
+      "block.plalix.palixdimblock": "Palixdimblock",
+      "item.palix.chocolate": "Chocolate",
+      "block.plalix.palixyplanty": "Planty",
+      "item.palix.palix_shild_helmet": "Palix helmet",
+      "item.palix.palix_music.desc": "Special music, really special...",
+      "item.palix.palix_bow": "Palix bow",
+      "block.palix.destruct_block": "Destruct block",
+      "item.plalix.palixbowarows": "Palix arows",
+      "item.palix.palix_shild_chestplate": "Palix Chestplate",
+      "item.plalix.palixydimention": "Palixy Portal Igniter",
+      "item.plalix.palixsword": "Palix sword",
+      "entity.palix.palix_defender": "Palix defender",
+      "block.palix.alix_boa": "Boa",
+      "block.palix.palixy_tnt": "Palixy TnT",
+      "item.palix.blobby_spawn_egg": "Blobby Spawn Egg",
+      "item.palix.polix_sword": "Polix sword",
+      "block.plalix.palixy_tn_t": "Palixy TnT",
+      "block.palix.palix_ore": "Palix Ore",
+      "block.plalix.palixtransformator": "Palix Transformator",
+      "item.palix.tangler_spawn_egg": "Tangler Spawn Egg",
+      "item.palix.palix_shild_boots": "Palix boots",
+      "item.plalix.palixfragment": "Fragment of palix",
+      "entity.plalix.palixdefender": "Palix defender",
+      "item.minecraft.potion.effect.posion": "Potion of Posion",
+      "item.palix.palix_sword": "Palixsword",
+      "subtitles.palix_music": "Palix Music",
+      "advancements.alixp.descr": "You found palix",
+      "item.palix.palix_food": "Palixy food",
+      "item.palix.palix_shild_leggings": "Palix leggings",
+      "block.palix.palixy_planty": "Planty",
+      "item.plalix.secret": "Secret",
+      "item.minecraft.tipped_arrow.effect.posion": "Arrow of Posion",
+      "enchantment.palix.palixy": "Palixy",
+      "item.plalix.palix": "Palix",
+      "entity.palix.blobby": "Blobby",
+      "item.plalix.palixprotected_leggings": "Palix Leggings",
+      "item.plalix.blobby_spawn_egg": "Blobby Spawn Egg",
+      "item.minecraft.splash_potion.effect.posion": "Splash Potion of Posion",
+      "block.palix.palix_block": "Palixblock",
+      "block.palix.palix_transformator_block": "Palix Transformator"
+    },
+    "fr_fr": {
+      "item.palix.palix_fragment": "Fragment of palix",
+      "enchantment.plalix.palixy": "Palixy",
+      "block.plalix.palixore": "Minerai de Palix",
+      "item.plalix.polix": "Polix",
+      "item.plalix.polixsword": "�p�e en Polix",
+      "entity.plalix.blobby": "Blobby",
+      "item.palix.palix_shovel": "Palix shovel",
+      "item.palix.palix_axe": "Palix axe",
+      "block.plalix.destructblock": "Destructer block",
+      "block.palix.polix_ore": "Polix ore",
+      "effect.palixpospalix_effect": "Palix_effect",
+      "item.plalix.palixdefender_spawn_egg": "Apparition de Palix defender",
+      "item.plalix.palixprotected_boots": "Bottes en Palix",
+      "item.plalix.palixbow": "Arc en Palix",
+      "entity.palix.tangler": "Tangler",
+      "item.minecraft.lingering_potion.effect.posion": "Lingering Potion of Posion",
+      "item.palix.palix": "Palix",
+      "item.plalix.palixaxe": "Hache en Palix",
+      "item.palix.palix_music": "Palix Disc",
+      "item.plalix.palixpioche": "Pioche en Palix",
+      "item.palix.polix": "Polix",
+      "item.plalix.palixprotected_helmet": "Casque en Palix",
+      "block.plalix.transfert": "Transfert",
+      "block.palix.alix_grass": "Dirty",
+      "advancements.alixp.title": "Palix !",
+      "item.palix.secret": "Secret",
+      "item.palix.palix_arows": "Palixbowarows",
+      "block.plalix.spyrali_tem": "spissy",
+      "item.plalix.palixprotected_chestplate": "Plastron de Palix",
+      "item.palix.palix_picaxe": "Palixy pickaxe",
+      "itemGroup.tabpalixonglet": "Palix",
+      "item.palix.palixfood": "Palixy food",
+      "item.plalix.palixshovel": "Pelle en Palix",
+      "block.plalix.palixer": "Minerai de Polix",
+      "item.plalix.palixfood": "Nouritture de Palix",
+      "block.plalix.palinator": "Fluidy",
+      "item.palix.palix_defender_spawn_egg": "Palix defender Spawn Egg",
+      "block.palix.alix_dirt": "Dirtpde",
+      "item.plalix.chocolate": "Chocolate",
+      "block.plalix.palixblock": "Palix block",
+      "block.plalix.palixdimblock": "Palix dimension block",
+      "item.palix.chocolate": "Chocolate",
+      "block.plalix.palixyplanty": "Planty",
+      "item.palix.palix_shild_helmet": "Casque en Palix",
+      "item.palix.palix_music.desc": "Une musique Spéciale, vraiment spéciale...",
+      "item.palix.palix_bow": "Palix bow",
+      "block.palix.destruct_block": "Destructer block",
+      "item.plalix.palixbowarows": "Fl�che de Palix",
+      "item.palix.palix_shild_chestplate": "Plastron de Palix",
+      "item.plalix.palixydimention": "Palixy Portal",
+      "item.plalix.palixsword": "�p�e en Palix",
+      "entity.palix.palix_defender": "Palix defender",
+      "block.palix.alix_boa": "Boa",
+      "block.palix.palixy_tnt": "Palixy TnT",
+      "item.palix.blobby_spawn_egg": "Blobby Spawn Egg",
+      "item.palix.polix_sword": "Polix sword",
+      "block.plalix.palixy_tn_t": "Palixy TnT",
+      "block.palix.palix_ore": "Palix Ore",
+      "block.plalix.palixtransformator": "Palix Transformator",
+      "item.palix.tangler_spawn_egg": "Tangler Spawn Egg",
+      "item.palix.palix_shild_boots": "Bottes en Palix",
+      "item.plalix.palixfragment": "Fragment de palix",
+      "entity.plalix.palixdefender": "Palix defender",
+      "item.minecraft.potion.effect.posion": "Potion of Posion",
+      "item.palix.palix_sword": "Palixsword",
+      "subtitles.palix_music": "",
+      "advancements.alixp.descr": "Tu a trouver du palix !",
+      "item.palix.palix_food": "Palixy food",
+      "item.palix.palix_shild_leggings": "Jambi�res de Palix",
+      "block.palix.palixy_planty": "Planty",
+      "item.plalix.secret": "Secret",
+      "item.minecraft.tipped_arrow.effect.posion": "Arrow of Posion",
+      "enchantment.palix.palixy": "Palixy",
+      "item.plalix.palix": "Palix",
+      "entity.palix.blobby": "Blobby",
+      "item.plalix.palixprotected_leggings": "Jambi�res de Palix",
+      "item.plalix.blobby_spawn_egg": "Blobby Spawn Egg",
+      "item.minecraft.splash_potion.effect.posion": "Splash Potion of Posion",
+      "block.palix.palix_block": "Palixblock",
+      "block.palix.palix_transformator_block": "Palix Transformator"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "palix",
+    "modName": "Palix",
+    "version": "1.3.5",
+    "description": "Everything is made with palix",
+    "author": "OH64",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/palix",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "processed-296ca4f1-e4f0-45e8-9aef-76b6b2beb0ba_7sh0aolg",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using MCreator Thank youuu",
+    "modElementsPackage": "fr.ohsq.palix",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

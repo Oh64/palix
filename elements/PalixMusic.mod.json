@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "palix_music",
+    "name": "Palix Disc",
+    "description": "Une musique Spéciale, vraiment spéciale...",
+    "creativeTab": {
+      "value": "CUSTOM:Palixonglet"
+    },
+    "music": {
+      "value": "CUSTOM:palix_music"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

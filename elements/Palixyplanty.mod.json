@@ -1,0 +1,94 @@
+{
+  "_fv": 28,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "planty",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "planty",
+    "particleTexture": "palixe_particule",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "staticPlantGenerationType": "Flower",
+    "suspiciousStewEffect": "NAUSEA",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Plains",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Planty",
+    "specialInfo": [
+      "Attention a celui qui la casse !"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Palixonglet"
+    },
+    "hardness": 1.0,
+    "resistance": 1.0,
+    "luminance": 1,
+    "unbreakable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "DEFAULT",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "jumpFactor": 2.0,
+    "speedFactor": 2.0,
+    "canBePlacedOn": [],
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "patchSize": 64,
+    "generateAtAnyHeight": false,
+    "onDestroyedByPlayer": {
+      "name": "PalixyplantyQuandLaPlanteEstDetruiteParUnJoueur"
+    }
+  }
+}

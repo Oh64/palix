@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "palix:blocks/destructblocktext",
+    "up": "palix:blocks/destructblocktext",
+    "north": "palix:blocks/destructblocktext",
+    "east": "palix:blocks/destructblocktext",
+    "south": "palix:blocks/destructblocktext",
+    "west": "palix:blocks/destructblocktext",
+    "particle": "palix:blocks/destructblocktext"
+  }
+}

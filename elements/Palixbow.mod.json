@@ -1,0 +1,37 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "palix_bow",
+    "customModelName": "Normal",
+    "name": "Palix bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Palixonglet"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Palixbowarows"
+    },
+    "shootConstantly": true,
+    "usageCount": 2550,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 1.0,
+    "bulletPower": 3.0,
+    "bulletDamage": 15.0,
+    "bulletKnockback": 10,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Palixbowarows"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

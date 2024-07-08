@@ -1,0 +1,42 @@
+{
+  "group": "palix_craft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "palix:palix_fragment"
+    },
+    "1": {
+      "item": "palix:palix_fragment"
+    },
+    "2": {
+      "item": "palix:palix_fragment"
+    },
+    "3": {
+      "item": "palix:palix_fragment"
+    },
+    "4": {
+      "item": "palix:palix_fragment"
+    },
+    "5": {
+      "item": "palix:palix_fragment"
+    },
+    "6": {
+      "item": "palix:palix_fragment"
+    },
+    "7": {
+      "item": "palix:palix_fragment"
+    },
+    "8": {
+      "item": "palix:palix_fragment"
+    }
+  },
+  "result": {
+    "item": "palix:palix",
+    "count": 1
+  }
+}

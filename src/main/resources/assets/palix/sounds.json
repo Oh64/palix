@@ -1,0 +1,11 @@
+{
+  "palix_music": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "palix:oh64_-_palix_mod_ambient_2023-02-11_10_25_1",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "palix:palix"
+    },
+    "1": {
+      "item": "palix:palix"
+    },
+    "2": {
+      "item": "palix:palix"
+    },
+    "3": {
+      "item": "palix:palix"
+    },
+    "5": {
+      "item": "palix:palix"
+    },
+    "6": {
+      "item": "palix:palix"
+    },
+    "8": {
+      "item": "palix:palix"
+    }
+  },
+  "result": {
+    "item": "palix:palix_shild_leggings",
+    "count": 1
+  }
+}

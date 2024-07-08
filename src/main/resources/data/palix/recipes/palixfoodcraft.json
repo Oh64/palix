@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "palix:palix_fragment"
+    },
+    {
+      "item": "palix:palix_fragment"
+    }
+  ],
+  "result": {
+    "item": "palix:palixfood",
+    "count": 3
+  }
+}

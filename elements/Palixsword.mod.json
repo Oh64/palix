@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_sword",
+    "customModelName": "Normal",
+    "name": "Palixsword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Palixonglet"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 9.0,
+    "attackSpeed": 20.0,
+    "enchantability": 2,
+    "damageVsEntity": 18.0,
+    "usageCount": 2550,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 155,
+    "height": 100,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Energy :",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Energy :",
+          "x": 150,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ERROR",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ERROR",
+          "x": 195,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Transfert all energy",
+          "width": 129,
+          "height": 20,
+          "name": "Transfert all energy",
+          "x": 150,
+          "y": 134
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

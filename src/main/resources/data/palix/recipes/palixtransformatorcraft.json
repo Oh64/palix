@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:furnace"
+    },
+    "1": {
+      "item": "palix:palix"
+    },
+    "2": {
+      "item": "minecraft:furnace"
+    },
+    "4": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "result": {
+    "item": "palix:palix_transformator_block",
+    "count": 1
+  }
+}

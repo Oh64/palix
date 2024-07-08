@@ -1,0 +1,62 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "casque1",
+    "enableBody": true,
+    "textureBody": "armor1",
+    "enableLeggings": true,
+    "textureLeggings": "bas1",
+    "enableBoots": true,
+    "textureBoots": "chaussure1",
+    "creativeTab": {
+      "value": "CUSTOM:Palixonglet"
+    },
+    "armorTextureFile": "diamond_",
+    "helmetName": "Casque en Palix",
+    "bodyName": "Plastron de Palix",
+    "leggingsName": "Jambi�res de Palix",
+    "bootsName": "Bottes en Palix",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 16,
+    "damageValueBody": 16,
+    "damageValueLeggings": 16,
+    "damageValueBoots": 16,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Palix"
+      }
+    ]
+  }
+}

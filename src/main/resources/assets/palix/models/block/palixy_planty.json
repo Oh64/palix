@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "palix:blocks/planty",
+    "particle": "palix:blocks/palixe_particule"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "palix:blocks/dirtpbas",
+    "up": "palix:blocks/dirtphaut",
+    "north": "palix:blocks/dirtp",
+    "east": "palix:blocks/dirtp",
+    "south": "palix:blocks/dirtp",
+    "west": "palix:blocks/dirtp",
+    "particle": "palix:blocks/dirtpbas"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "palix:blocks/palix_block",
+    "up": "palix:blocks/palix_block",
+    "north": "palix:blocks/palix_block",
+    "east": "palix:blocks/palix_block",
+    "south": "palix:blocks/palix_block",
+    "west": "palix:blocks/palix_block",
+    "particle": "palix:blocks/palix_block"
+  }
+}

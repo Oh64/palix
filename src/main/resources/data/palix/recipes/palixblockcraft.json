@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "palix:palix"
+    },
+    "1": {
+      "item": "palix:palix"
+    },
+    "2": {
+      "item": "palix:palix"
+    },
+    "3": {
+      "item": "palix:palix"
+    },
+    "4": {
+      "item": "palix:palix"
+    },
+    "5": {
+      "item": "palix:palix"
+    },
+    "6": {
+      "item": "palix:palix"
+    },
+    "7": {
+      "item": "palix:palix"
+    },
+    "8": {
+      "item": "palix:palix"
+    }
+  },
+  "result": {
+    "item": "palix:palix_block",
+    "count": 1
+  }
+}

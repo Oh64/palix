@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Palix_effect",
+    "icon": "palix_pos.png",
+    "color": {
+      "value": -16764160,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "PalixposQuandLeffetCommenceEstApplique"
+    }
+  }
+}

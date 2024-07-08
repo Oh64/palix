@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "palix:block/palix_ore"
+    }
+  }
+}
