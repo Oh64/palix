@@ -781,8 +781,8 @@
   "language_map": {
     "en_us": {
       "item.palix.palix_fragment": "Fragment of palix",
-      "block.plalix.palixore": "Palix Ore",
       "enchantment.plalix.palixy": "Palixy",
+      "block.plalix.palixore": "Palix Ore",
       "item.plalix.polix": "Polix",
       "item.plalix.polixsword": "Polix sword",
       "entity.plalix.blobby": "Blobby",
@@ -863,8 +863,8 @@
     },
     "fr_fr": {
       "item.palix.palix_fragment": "Fragment of palix",
-      "enchantment.plalix.palixy": "Palixy",
       "block.plalix.palixore": "Minerai de Palix",
+      "enchantment.plalix.palixy": "Palixy",
       "item.plalix.polix": "Polix",
       "item.plalix.polixsword": "Epée en Polix",
       "entity.plalix.blobby": "Blobby",
@@ -951,7 +951,7 @@
   "workspaceSettings": {
     "modid": "palix",
     "modName": "Palix",
-    "version": "1.3.5",
+    "version": "1.3.7",
     "description": "Everything is made with palix",
     "author": "OH64",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/palix",
