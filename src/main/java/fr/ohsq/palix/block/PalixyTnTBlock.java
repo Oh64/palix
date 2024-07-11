@@ -37,7 +37,7 @@ public class PalixyTnTBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public PalixyTnTBlock(PalixModElements instance) {
-		super(instance, 23);
+		super(instance, 16);
 	}
 
 	@Override

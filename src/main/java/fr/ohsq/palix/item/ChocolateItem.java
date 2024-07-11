@@ -22,7 +22,7 @@ public class ChocolateItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public ChocolateItem(PalixModElements instance) {
-		super(instance, 74);
+		super(instance, 23);
 	}
 
 	@Override

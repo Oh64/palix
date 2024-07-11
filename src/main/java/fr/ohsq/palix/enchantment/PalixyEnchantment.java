@@ -15,7 +15,7 @@ public class PalixyEnchantment extends PalixModElements.ModElement {
 	public static final Enchantment enchantment = null;
 
 	public PalixyEnchantment(PalixModElements instance) {
-		super(instance, 26);
+		super(instance, 29);
 	}
 
 	@Override

@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "casque1",
+    "textureHelmet": "palix_helmet",
     "enableBody": true,
-    "textureBody": "armor1",
+    "textureBody": "palix_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "bas1",
+    "textureLeggings": "palix_leggings",
     "enableBoots": true,
-    "textureBoots": "chaussure1",
+    "textureBoots": "palix_boots",
     "creativeTab": {
       "value": "CUSTOM:Palixonglet"
     },

@@ -42,7 +42,7 @@ public class PalixtransformatorBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public PalixtransformatorBlock(PalixModElements instance) {
-		super(instance, 11);
+		super(instance, 7);
 	}
 
 	@Override

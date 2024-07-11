@@ -26,7 +26,7 @@ public class DirtPBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public DirtPBlock(PalixModElements instance) {
-		super(instance, 69);
+		super(instance, 19);
 	}
 
 	@Override

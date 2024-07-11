@@ -35,7 +35,7 @@ public class SecretItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public SecretItem(PalixModElements instance) {
-		super(instance, 56);
+		super(instance, 59);
 	}
 
 	@Override

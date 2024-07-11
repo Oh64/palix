@@ -50,7 +50,7 @@ public class PalixerBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public PalixerBlock(PalixModElements instance) {
-		super(instance, 8);
+		super(instance, 6);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

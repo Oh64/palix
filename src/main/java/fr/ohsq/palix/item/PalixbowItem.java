@@ -45,7 +45,7 @@ public class PalixbowItem extends PalixModElements.ModElement {
 			.size(0.5f, 0.5f)).build("projectile_palix_bow").setRegistryName("projectile_palix_bow");
 
 	public PalixbowItem(PalixModElements instance) {
-		super(instance, 16);
+		super(instance, 13);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PalixbowRenderer.ModelRegisterHandler());
 	}
 

@@ -17,7 +17,7 @@ public class PalixshovelItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public PalixshovelItem(PalixModElements instance) {
-		super(instance, 21);
+		super(instance, 12);
 	}
 
 	@Override

@@ -65,7 +65,7 @@ public class PalixyplantyBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public PalixyplantyBlock(PalixModElements instance) {
-		super(instance, 22);
+		super(instance, 18);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

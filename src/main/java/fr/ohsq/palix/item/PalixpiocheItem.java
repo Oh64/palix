@@ -17,7 +17,7 @@ public class PalixpiocheItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public PalixpiocheItem(PalixModElements instance) {
-		super(instance, 19);
+		super(instance, 10);
 	}
 
 	@Override

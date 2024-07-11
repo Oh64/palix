@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "palix_bow_arow",
+    "texture": "palix_arrow",
     "customModelName": "Normal",
     "name": "Palixbowarows",
     "rarity": "COMMON",
@@ -33,6 +33,9 @@
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
     "animation": "eat"

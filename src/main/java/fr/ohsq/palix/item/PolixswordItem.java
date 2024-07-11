@@ -26,7 +26,7 @@ public class PolixswordItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public PolixswordItem(PalixModElements instance) {
-		super(instance, 14);
+		super(instance, 8);
 	}
 
 	@Override

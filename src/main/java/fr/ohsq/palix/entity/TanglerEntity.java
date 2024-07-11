@@ -50,7 +50,7 @@ public class TanglerEntity extends PalixModElements.ModElement {
 			.size(0.6f, 1.8f)).build("tangler").setRegistryName("tangler");
 
 	public TanglerEntity(PalixModElements instance) {
-		super(instance, 75);
+		super(instance, 27);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TanglerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

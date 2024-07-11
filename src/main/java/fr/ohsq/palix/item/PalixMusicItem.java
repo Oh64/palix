@@ -17,7 +17,7 @@ public class PalixMusicItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public PalixMusicItem(PalixModElements instance) {
-		super(instance, 76);
+		super(instance, 24);
 	}
 
 	@Override

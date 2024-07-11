@@ -42,7 +42,7 @@ public class PalixdefenderEntity extends PalixModElements.ModElement {
 			.size(0.6f, 1.8f)).build("palix_defender").setRegistryName("palix_defender");
 
 	public PalixdefenderEntity(PalixModElements instance) {
-		super(instance, 1);
+		super(instance, 26);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PalixdefenderRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

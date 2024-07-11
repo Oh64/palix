@@ -108,7 +108,7 @@
     "guiBoundTo": "Palixgui1",
     "openGUIOnRightClick": true,
     "inventorySize": 2,
-    "inventoryStackSize": 64,
+    "inventoryStackSize": 12,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [

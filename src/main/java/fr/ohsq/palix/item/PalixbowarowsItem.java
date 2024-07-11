@@ -18,7 +18,7 @@ public class PalixbowarowsItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public PalixbowarowsItem(PalixModElements instance) {
-		super(instance, 6);
+		super(instance, 14);
 	}
 
 	@Override

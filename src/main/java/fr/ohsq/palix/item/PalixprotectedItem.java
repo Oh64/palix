@@ -30,7 +30,7 @@ public class PalixprotectedItem extends PalixModElements.ModElement {
 	public static final Item boots = null;
 
 	public PalixprotectedItem(PalixModElements instance) {
-		super(instance, 17);
+		super(instance, 15);
 	}
 
 	@Override

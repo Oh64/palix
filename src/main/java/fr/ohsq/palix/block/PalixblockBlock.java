@@ -26,7 +26,7 @@ public class PalixblockBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public PalixblockBlock(PalixModElements instance) {
-		super(instance, 9);
+		super(instance, 1);
 	}
 
 	@Override

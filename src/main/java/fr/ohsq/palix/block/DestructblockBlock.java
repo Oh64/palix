@@ -33,7 +33,7 @@ public class DestructblockBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public DestructblockBlock(PalixModElements instance) {
-		super(instance, 24);
+		super(instance, 17);
 	}
 
 	@Override

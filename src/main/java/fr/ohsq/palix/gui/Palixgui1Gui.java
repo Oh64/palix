@@ -34,6 +34,7 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
+import fr.ohsq.palix.procedures.PalixGuiTextProcedure;
 import fr.ohsq.palix.procedures.PalixGui1ProcProcedure;
 import fr.ohsq.palix.item.PalixItem;
 import fr.ohsq.palix.PalixModElements;
@@ -45,7 +46,7 @@ public class Palixgui1Gui extends PalixModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public Palixgui1Gui(PalixModElements instance) {
-		super(instance, 45);
+		super(instance, 48);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -124,12 +125,6 @@ public class Palixgui1Gui extends PalixModElements.ModElement {
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 62, 38) {
 				@Override
-				public void onSlotChanged() {
-					super.onSlotChanged();
-					GuiContainerMod.this.slotChanged(0, 0, 0);
-				}
-
-				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (PalixItem.block == stack.getItem());
 				}
@@ -147,6 +142,10 @@ public class Palixgui1Gui extends PalixModElements.ModElement {
 					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 37 + 8 + sj * 18, 17 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
 				this.addSlot(new Slot(inv, si, 37 + 8 + si * 18, 17 + 142));
+
+			PalixGuiTextProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("guistate", guistate))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -387,6 +386,12 @@ public class Palixgui1Gui extends PalixModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			PalixGui1ProcProcedure
+					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity), new AbstractMap.SimpleEntry<>("guistate", guistate))
+							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {
@@ -394,11 +399,5 @@ public class Palixgui1Gui extends PalixModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (slotID == 0 && changeType == 0) {
-
-			PalixGui1ProcProcedure
-					.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("entity", entity))
-							.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-		}
 	}
 }

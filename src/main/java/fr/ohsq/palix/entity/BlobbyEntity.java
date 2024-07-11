@@ -51,7 +51,7 @@ public class BlobbyEntity extends PalixModElements.ModElement {
 			.size(0.6f, 1.8f)).build("blobby").setRegistryName("blobby");
 
 	public BlobbyEntity(PalixModElements instance) {
-		super(instance, 2);
+		super(instance, 25);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlobbyRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 		MinecraftForge.EVENT_BUS.register(this);

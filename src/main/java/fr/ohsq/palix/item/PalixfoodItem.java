@@ -27,7 +27,7 @@ public class PalixfoodItem extends PalixModElements.ModElement {
 	public static final Item block = null;
 
 	public PalixfoodItem(PalixModElements instance) {
-		super(instance, 73);
+		super(instance, 22);
 	}
 
 	@Override

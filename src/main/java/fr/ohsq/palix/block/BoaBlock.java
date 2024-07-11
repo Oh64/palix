@@ -26,7 +26,7 @@ public class BoaBlock extends PalixModElements.ModElement {
 	public static final Block block = null;
 
 	public BoaBlock(PalixModElements instance) {
-		super(instance, 70);
+		super(instance, 21);
 	}
 
 	@Override

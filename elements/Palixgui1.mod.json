@@ -19,9 +19,6 @@
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "onSlotChanged": {
-            "name": "PalixGui1Proc"
-          },
           "name": "Slot #0",
           "x": 150,
           "y": 57
@@ -39,19 +36,47 @@
         }
       },
       {
+        "type": "button",
+        "data": {
+          "text": "Multiply",
+          "onClick": {
+            "name": "PalixGui1Proc"
+          },
+          "width": 67,
+          "height": 20,
+          "name": "Multiply",
+          "x": 178,
+          "y": 56
+        }
+      },
+      {
         "type": "label",
         "data": {
-          "text": "You must place and then remove the palix ore",
+          "text": "",
           "color": {
-            "value": -16777216,
+            "value": -12829636,
             "falpha": 0.0
           },
-          "name": "You must place and then remove the palix ore",
-          "x": 96,
-          "y": 33
+          "name": "",
+          "x": 175,
+          "y": 82
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 120,
+          "height": 20,
+          "name": "TextG",
+          "x": 153,
+          "y": 84
         }
       }
     ],
+    "onOpen": {
+      "name": "PalixGuiText"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
